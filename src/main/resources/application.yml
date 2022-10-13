@@ -1,0 +1,13 @@
+server:
+  port: 4410
+
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: practice
+
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
