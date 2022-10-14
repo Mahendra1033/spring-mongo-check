@@ -7,6 +7,7 @@ spring:
       port: 27017
       host: localhost
       database: practice
+#      auto-index-creation: true
 
   mvc:
     pathmatch:
